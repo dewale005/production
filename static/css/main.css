@@ -1,0 +1,37 @@
+h1 {
+    font-size: 62px;
+    color: #fff;
+    text-shadow: 0px 3px 6px #000;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 81px;
+}
+
+h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-bottom: 37px;
+    text-align: center;
+    padding-top: 81px;
+}
+
+.info {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    padding-top: 123px;
+}
+
+.button {
+    margin: 0 auto;
+    width: 100px;
+    padding-top: 12px;
+}
+
+.main {
+    background: linear-gradient(-45deg, #610597, #f7dcff);
+    background-repeat: no-repeat;
+    padding-bottom: 264px;
+}

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body class="container main">
+        <div class="row">
+            <div class="col-sm-12 col-md 12 ">
+            <h1>Congratulations!!!</h1>
+            <p class="info">Your application has been successfully received. We would get back to you soon</p>
+            <div class="button">
+            <a href="{% url "home" %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Back Home</a>    
+            </div>
+            </div>
+        </div>
+</body>
+{% endblock %}

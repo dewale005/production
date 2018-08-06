@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<body class="container main">
+    <div class="row">
+        <div class="col-sm-12 col-md 12 ">
+            <h1>Welcome to jobonline.com</h1>
+            <p class="info">Are you interested in our latest offers?</p>
+            <div class="button">
+            <a href="{% url "apply" %}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Get started</a>    
+            </div>
+        </div>
+    </div> 
+</body>
+{% endblock %}
